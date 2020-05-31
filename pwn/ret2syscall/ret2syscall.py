@@ -1,6 +1,6 @@
 from pwn import *
 
-r = process('./rop')
+r = process('./ret2syscall')
 
 pop_eax_ret = 0x080bb196
 
