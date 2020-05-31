@@ -16,7 +16,7 @@ int main(int argc,char * argv[])
 
     printf("%s","Hack here >");
     gets(variable);
-    puts("EOF");
+    puts("\nEOF");
 }
 
 void hidden()
