@@ -1,0 +1,20 @@
+1.helloida                              100
+你会用IDA吗？
+newcster{Hello_IDA_my_IDA}
+
+2.babyre                                100
+简单到甚至只需要改一下符号
+newcster{reisfun}
+
+3.easyre                             200
+简单又常见的编码
+newcster{base64_is_easy}
+
+
+4.ret2shellcode                          200
+shellcode又是啥？
+newcster{hiahiahia_shellc0de_1s_ea3y}
+
+5.64rop_upgrade                      400
+64位下的rop，与32位有何不同之处？
+newcster{remember_70_pop_rdi}
